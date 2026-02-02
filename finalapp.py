@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 
 # 1. Load Data (Make sure you upload your 'amazon_reviews.csv' first)
-df = pd.read_csv('Reviews.csv')
+df = pd.read_csv('Reviews_tiny.csv')
 
 # 2. Text Preprocessing
 # We only need the 'Text' and the 'Score' columns
